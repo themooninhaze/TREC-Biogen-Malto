@@ -3,7 +3,7 @@
 # download and index pubmed baseline using lucene-based pyserini
 #
 
-URL="http://bionlp.nlm.nih.gov/biogen-2025-document-collection.zip"
+URL="https://drive.google.com/file/d/1pkCTJS4OaWGXjdoHLDAu6s3Yvn8fDtP8/view?usp=share_link"
 ZIP_FILE="biogen-2025-document-collection.zip"
 TARGET_DIR="pubmed_baseline_collection_jsonl"
 
