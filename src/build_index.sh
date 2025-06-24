@@ -2,13 +2,14 @@
 #
 # download and index pubmed baseline using lucene-based pyserini
 #
-
+pip install gdown
+gdown "https://drive.google.com/file/d/1pkCTJS4OaWGXjdoHLDAu6s3Yvn8fDtP8/view?usp=share_link"
 URL="https://drive.google.com/file/d/1pkCTJS4OaWGXjdoHLDAu6s3Yvn8fDtP8/view?usp=share_link"
 ZIP_FILE="biogen-2025-document-collection.zip"
 TARGET_DIR="pubmed_baseline_collection_jsonl"
 
 echo "Downloading file..."
-wget -O "$ZIP_FILE" "$URL"
+gdown --id 1pkCTJS4OaWGXjdoHLDAu6s3Yvn8fDtP8 -O biogen-2025-document-collection.zip
 
 TEMP_DIR="temp_extraction_dir"
 mkdir -p "$TEMP_DIR"
